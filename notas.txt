@@ -1,0 +1,2 @@
+indicadores de passagem = variavel boolean para o laço
+iteração = cada loop do while é uma iteração
