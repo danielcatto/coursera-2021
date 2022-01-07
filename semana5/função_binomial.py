@@ -13,6 +13,3 @@ def coeficiente(n, p):
 n = int(input("numerador: "))
 p = int(input("denominador: "))
 print(coeficiente(n,p))
-
-
-print('zero fatorial ', fatoral(0))
