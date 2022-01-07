@@ -1,9 +1,10 @@
 import math
 
-a = float(input("informe o valor de a: "))
-b = float(input("informe o valor de b: "))
-c = float(input("informe o valor de c: "))
+a = 10#float(input("informe o valor de a: "))
+b = 25#float(input("informe o valor de b: "))
+c = 10#float(input("informe o valor de c: "))
 
+  
 delta =  b**2 - 4 * a * c
 print("delta", delta)
 raiz1 = (-b + math.sqrt(delta)) / (2*a)
