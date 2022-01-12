@@ -1,21 +1,24 @@
 
-def numeros_primos(numero):
+def éPrimo(k):
     count = 0
     c = 1
-    while c <= numero:
-        pr = numero % c
+    while c <= k:
+        pr = k % c
         if pr == 0:
             count += 1
         c += 1
 
     if count == 2:
-        return numero
-    
+        return True
+    else:
+        return False    
+
 def maior_primo(n):
     i = 0
-    verifica_maior = 1
     while i <= n:
-        verifica_maior = numeros_primos(n)
-        print(verifica_maior)
-
-maior_primo(8)
+        verifica_maior = éPrimo(i)
+        if verifica_maior == True:
+            maior = i
+        i+=1
+    return maior
+print(maior_primo(100))
