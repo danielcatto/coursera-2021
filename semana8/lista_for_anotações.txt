@@ -1,0 +1,39 @@
+fatiando listas
+primos = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+primos[:12]
+R: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
+primos[2:12]
+R: [5, 7, 11, 13, 17, 19, 23, 29, 31, 37
+
+clonando listas
+lista1 = ["vermelho", "verde", "azul"]
+lista2 = lista1
+R: refere-se a mesma lista1
+
+para cloner é usado 
+lista2 = lista1[:] => Devolve um clone
+
+Pertinência a uma lista!
+"Rosa" in lista1
+
+Concatenação de uma lista com sinal de "+"
+lista1 = ["vermelho", "verde", "azul"]
+lista2 = ["preta", "branca", "amarela"]
+lista1+lista2 => Concatenação gera uma nova lista não altera a lista1 e lista2. Diferente do append()
+
+Concatenação com sinal de "*"
+a = [1,2,3]
+a*3
+R. [1, 2, 3, 1, 2, 3, 1, 2, 3] => também gera uma nova lista
+
+
+remover elementos em listas definitivamente
+a = [1,2,3]
+del a[1]
+del a[1:2]
+
+
+alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+
+lista_reversa = reversed(alfabeto) => invete a seguencida da lista
