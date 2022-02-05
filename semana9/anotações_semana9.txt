@@ -1,0 +1,44 @@
+objetos e referencias
+
+    string são imutaveis, listas são mutaveis
+    a = "banana"
+    b = "banana"
+    a is b => são iguais no sentido que apontão para o mesmo endereço de memoria
+
+    a = "banana"
+    b = "banana"
+
+    print(a == b)
+
+    l1 = [83,84,85]
+    l2 = [83,84,85]
+
+    print(l1 is l2)
+    print(l1 == l2)
+
+repetições e referencias
+
+
+l1 = [83,84,85]
+
+nl1=l1
+nl1[1] = 99
+nl2 = [l1[:]] * 3
+
+l1[0] = 77
+nl1[0] = 77
+
+print(l1)
+print(nl1)
+print(nl2)
+
+
+
+
+Exercicio
+
+compara_assinatura(as_a, as_b)
+
+calcula_assinatura(texto)
+
+avalia_textos(textos, ass_cp)
